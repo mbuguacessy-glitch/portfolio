@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cecilia W. Mbugua — AI Automation Engineer</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <style>
+    * {
+      font-family: 'Inter', sans-serif;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    .gradient-text {
+      background: linear-gradient(135deg, #6366f1, #8b5cf6, #06b6d4);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+
+    .card-hover {
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
+    }
+
+    .card-hover:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+    }
+
+    .nav-link {
+      transition: color 0.2s ease;
+    }
+
+    .nav-link:hover {
+      color: #a78bfa;
+    }
+
+    .skill-tag {
+      transition: background 0.2s ease;
+    }
+
+    .skill-tag:hover {
+      background: rgba(99, 102, 241, 0.3);
+    }
+  </style>
+</head>
+
+<body class="bg-gray-950 text-gray-100">
+
+  <!-- Navigation -->
+  <nav class="fixed top-0 left-0 right-0 z-50 bg-gray-950/90 backdrop-blur-sm border-b border-gray-800">
+    <div class="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
+      <span class="font-semibold text-white">CM</span>
+      <div class="flex gap-8 text-sm text-gray-400">
+        <a href="#projects" class="nav-link">Projects</a>
+        <a href="#skills" class="nav-link">Skills</a>
+        <a href="#about" class="nav-link">About</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <section class="min-h-screen flex items-center justify-center px-6 pt-20">
+    <div class="max-w-4xl mx-auto text-center">
+      <div
+        class="inline-block bg-indigo-500/10 border border-indigo-500/20 rounded-full px-4 py-2 text-indigo-400 text-sm mb-8">
+        Available for AI Engineering roles, International (Remote) and local
+      </div>
+      <h1 class="text-5xl md:text-6xl font-bold text-white mb-6 leading-tight">
+        Cecilia W. Mbugua
+      </h1>
+      <p class="text-xl text-gray-400 mb-4 max-w-2xl mx-auto leading-relaxed">
+        AI Automation Engineer; building and deploying intelligent systems that eliminate manual work, reduce
+        operational costs, and create measurable business impact across African and global markets.
+      </p>
+      <p class="text-gray-500 mb-10 max-w-xl mx-auto">
+        From client screening pipelines that replace hours of manual review, to document processing systems that cut
+        research time from 20 minutes to 3 seconds, I build AI systems that solve problems businesses actually have.
+      </p>
+      <div class="flex flex-wrap gap-4 justify-center">
+        <a href="#projects"
+          class="bg-indigo-600 hover:bg-indigo-500 text-white px-8 py-3 rounded-lg font-medium transition-colors">
+          View Projects
+        </a>
+        <a href="https://ai-agent-api-w7uh.onrender.com" target="_blank"
+          class="bg-gray-800 hover:bg-gray-700 text-white px-8 py-3 rounded-lg font-medium transition-colors border border-gray-700">
+          Live API →
+        </a>
+        <a href="https://github.com/mbuguacessy-glitch" target="_blank"
+          class="bg-gray-800 hover:bg-gray-700 text-white px-8 py-3 rounded-lg font-medium transition-colors border border-gray-700">
+          GitHub →
+        </a>
+      </div>
+
+      <!-- Stats -->
+      <div class="grid grid-cols-3 gap-8 mt-20 max-w-lg mx-auto">
+        <div class="text-center">
+          <div class="text-3xl font-bold text-white">4</div>
+          <div class="text-gray-500 text-sm mt-1">Production Projects</div>
+        </div>
+        <div class="text-center">
+          <div class="text-3xl font-bold text-white">1</div>
+          <div class="text-gray-500 text-sm mt-1">Live Deployed API</div>
+        </div>
+        <div class="text-center">
+          <div class="text-3xl font-bold text-white">5+</div>
+          <div class="text-gray-500 text-sm mt-1">AI Tools Integrated</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects" class="py-24 px-6">
+    <div class="max-w-6xl mx-auto">
+      <div class="text-center mb-16">
+        <h2 class="text-4xl font-bold text-white mb-4">Projects</h2>
+        <p class="text-gray-400 max-w-xl mx-auto">Production-grade AI systems built to eliminate manual work, improve
+          decision making, and create measurable results for real businesses.</p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+
+        <!-- Project 1: ClearVet -->
+        <div class="card-hover bg-gray-900 border border-gray-800 rounded-2xl p-8 md:col-span-2">
+          <div class="flex items-start justify-between mb-6">
+            <div>
+              <div class="flex items-center gap-3 mb-2">
+                <span
+                  class="bg-green-500/10 text-green-400 border border-green-500/20 text-xs px-3 py-1 rounded-full">Featured</span>
+                <span
+                  class="bg-purple-500/10 text-purple-400 border border-purple-500/20 text-xs px-3 py-1 rounded-full">Enterprise
+                  Product</span>
+              </div>
+              <h3 class="text-2xl font-bold text-white">ClearVet: Client Evaluation Pipeline</h3>
+            </div>
+          </div>
+          <p class="text-gray-400 mb-6 leading-relaxed">
+            AI automation agencies spend hours manually screening client enquiries and most are not a good fit. ClearVet
+            automates the entire screening process. A potential client fills a Typeform, Claude evaluates them across 6
+            dimensions, a scored report appears in Slack with Approve/Reject buttons, and the decision is logged to
+            PostgreSQL permanently.
+          </p>
+          <div class="grid grid-cols-1 md:grid-cols-3 gap-4 mb-6">
+            <div class="bg-gray-800/50 rounded-xl p-4">
+              <div class="text-2xl font-bold text-white">6</div>
+              <div class="text-gray-500 text-sm">Evaluation dimensions</div>
+            </div>
+            <div class="bg-gray-800/50 rounded-xl p-4">
+              <div class="text-2xl font-bold text-white">&lt;1s</div>
+              <div class="text-gray-500 text-sm">API response time</div>
+            </div>
+            <div class="bg-gray-800/50 rounded-xl p-4">
+              <div class="text-2xl font-bold text-white">100%</div>
+              <div class="text-gray-500 text-sm">Audit trail coverage</div>
+            </div>
+          </div>
+          <div class="flex flex-wrap gap-2 mb-6">
+            <span
+              class="skill-tag bg-gray-800 text-gray-300 text-xs px-3 py-1 rounded-full border border-gray-700">FastAPI</span>
+            <span
+              class="skill-tag bg-gray-800 text-gray-300 text-xs px-3 py-1 rounded-full border border-gray-700">Claude
+              AI</span>
+            <span
+              class="skill-tag bg-gray-800 text-gray-300 text-xs px-3 py-1 rounded-full border border-gray-700">PostgreSQL</span>
+            <span
+              class="skill-tag bg-gray-800 text-gray-300 text-xs px-3 py-1 rounded-full border border-gray-700">SQLAlchemy</span>
+            <span
+              class="skill-tag bg-gray-800 text-gray-300 text-xs px-3 py-1 rounded-full border border-gray-700">Slack
+              API</span>
+            <span
+              class="skill-tag bg-gray-800 text-gray-300 text-xs px-3 py-1 rounded-full border border-gray-700">Typeform</span>
+            <span
+              class="skill-tag bg-gray-800 text-gray-300 text-xs px-3 py-1 rounded-full border border-gray-700">n8n</span>
+            <span
+              class="skill-tag bg-gray-800 text-gray-300 text-xs px-3 py-1 rounded-full border border-gray-700">Background
+              Tasks</span>
+          </div>
+          <div class="flex gap-4">
+            <a href="https://github.com/mbuguacessy-glitch/ClearVet-Client-Evaluation-Pipeline" target="_blank"
+              class="bg-gray-800 hover:bg-gray-700 text-white px-5 py-2 rounded-lg text-sm font-medium transition-colors border border-gray-700">
+              GitHub →
+            </a>
+          </div>
+        </div>
+
+        <!-- Project 2: RAG System -->
+        <div class="card-hover bg-gray-900 border border-gray-800 rounded-2xl p-8">
+          <div class="flex items-center gap-3 mb-4">
+            <span class="bg-blue-500/10 text-blue-400 border border-blue-500/20 text-xs px-3 py-1 rounded-full">Live
+              Deployed</span>
+          </div>
+          <h3 class="text-xl font-bold text-white mb-3">RAG Evaluation System</h3>
+          <p class="text-gray-400 mb-6 leading-relaxed text-sm">
+            Production RAG pipeline deployed on Render. Evaluates document retrieval accuracy across three metrics;
+            faithfulness, answer relevance, and context relevance using Claude as the judge. Reduced document research
+            time from 20 minutes to under 3 seconds with RAGAS-style evaluation scoring faithfulness at 0.92.
+          </p>
+          <div class="flex flex-wrap gap-2 mb-6">
+            <span
+              class="skill-tag bg-gray-800 text-gray-300 text-xs px-3 py-1 rounded-full border border-gray-700">FastAPI</span>
+            <span
+              class="skill-tag bg-gray-800 text-gray-300 text-xs px-3 py-1 rounded-full border border-gray-700">Claude
+              AI</span>
+            <span
+              class="skill-tag bg-gray-800 text-gray-300 text-xs px-3 py-1 rounded-full border border-gray-700">ChromaDB</span>
+            <span
+              class="skill-tag bg-gray-800 text-gray-300 text-xs px-3 py-1 rounded-full border border-gray-700">LangChain</span>
+            <span
+              class="skill-tag bg-gray-800 text-gray-300 text-xs px-3 py-1 rounded-full border border-gray-700">Render</span>
+          </div>
+          <div class="flex gap-4">
+            <a href="https://ai-agent-api-w7uh.onrender.com" target="_blank"
+              class="bg-indigo-600 hover:bg-indigo-500 text-white px-5 py-2 rounded-lg text-sm font-medium transition-colors">
+              Live Demo →
+            </a>
+            <a href="https://github.com/mbuguacessy-glitch" target="_blank"
+              class="bg-gray-800 hover:bg-gray-700 text-white px-5 py-2 rounded-lg text-sm font-medium transition-colors border border-gray-700">
+              GitHub →
+            </a>
+          </div>
+        </div>
+
+        <!-- Project 3: Auth API -->
+        <div class="card-hover bg-gray-900 border border-gray-800 rounded-2xl p-8">
+          <div class="flex items-center gap-3 mb-4">
+            <span
+              class="bg-yellow-500/10 text-yellow-400 border border-yellow-500/20 text-xs px-3 py-1 rounded-full">Security</span>
+          </div>
+          <h3 class="text-xl font-bold text-white mb-3">Authenticated Multi-Tenant API</h3>
+          <p class="text-gray-400 mb-6 leading-relaxed text-sm">
+            Production-grade authentication layer with JWT tokens for admin users and API key management for client
+            machine access. Includes usage tracking per client, sliding window rate limiting, and instant key
+            revocation. Each client sees only their own data.
+          </p>
+          <div class="flex flex-wrap gap-2 mb-6">
+            <span
+              class="skill-tag bg-gray-800 text-gray-300 text-xs px-3 py-1 rounded-full border border-gray-700">FastAPI</span>
+            <span
+              class="skill-tag bg-gray-800 text-gray-300 text-xs px-3 py-1 rounded-full border border-gray-700">JWT</span>
+            <span
+              class="skill-tag bg-gray-800 text-gray-300 text-xs px-3 py-1 rounded-full border border-gray-700">PostgreSQL</span>
+            <span
+              class="skill-tag bg-gray-800 text-gray-300 text-xs px-3 py-1 rounded-full border border-gray-700">bcrypt</span>
+            <span class="skill-tag bg-gray-800 text-gray-300 text-xs px-3 py-1 rounded-full border border-gray-700">Rate
+              Limiting</span>
+          </div>
+          <div class="flex gap-4">
+            <a href="https://github.com/mbuguacessy-glitch/authenticated-api" target="_blank"
+              class="bg-gray-800 hover:bg-gray-700 text-white px-5 py-2 rounded-lg text-sm font-medium transition-colors border border-gray-700">
+              GitHub →
+            </a>
+          </div>
+        </div>
+
+        <!-- Project 4: Background Tasks -->
+        <div class="card-hover bg-gray-900 border border-gray-800 rounded-2xl p-8">
+          <div class="flex items-center gap-3 mb-4">
+            <span
+              class="bg-cyan-500/10 text-cyan-400 border border-cyan-500/20 text-xs px-3 py-1 rounded-full">Pipeline</span>
+          </div>
+          <h3 class="text-xl font-bold text-white mb-3">Document Processing Pipeline</h3>
+          <p class="text-gray-400 mb-6 leading-relaxed text-sm">
+            Async document processing pipeline that handles long-running AI tasks without blocking. Clients submit
+            documents and receive a job ID in under 1 second. Claude processes in the background; summarising,
+            extracting fields, or evaluating against criteria. Full job audit trail in PostgreSQL.
+          </p>
+          <div class="flex flex-wrap gap-2 mb-6">
+            <span
+              class="skill-tag bg-gray-800 text-gray-300 text-xs px-3 py-1 rounded-full border border-gray-700">FastAPI</span>
+            <span
+              class="skill-tag bg-gray-800 text-gray-300 text-xs px-3 py-1 rounded-full border border-gray-700">Claude
+              AI</span>
+            <span
+              class="skill-tag bg-gray-800 text-gray-300 text-xs px-3 py-1 rounded-full border border-gray-700">PostgreSQL</span>
+            <span
+              class="skill-tag bg-gray-800 text-gray-300 text-xs px-3 py-1 rounded-full border border-gray-700">Async
+              Python</span>
+            <span
+              class="skill-tag bg-gray-800 text-gray-300 text-xs px-3 py-1 rounded-full border border-gray-700">Webhooks</span>
+          </div>
+          <div class="flex gap-4">
+            <a href="https://github.com/mbuguacessy-glitch/Background-Task-Pipeline" target="_blank"
+              class="bg-gray-800 hover:bg-gray-700 text-white px-5 py-2 rounded-lg text-sm font-medium transition-colors border border-gray-700">
+              GitHub →
+            </a>
+          </div>
+        </div>
+
+        <!-- Project 5: Database API -->
+        <div class="card-hover bg-gray-900 border border-gray-800 rounded-2xl p-8">
+          <div class="flex items-center gap-3 mb-4">
+            <span
+              class="bg-orange-500/10 text-orange-400 border border-orange-500/20 text-xs px-3 py-1 rounded-full">Data</span>
+          </div>
+          <h3 class="text-xl font-bold text-white mb-3">Database & API Projects</h3>
+          <p class="text-gray-400 mb-6 leading-relaxed text-sm">
+            Full database layer built from scratch; PostgreSQL schema design, SQLAlchemy ORM models, FastAPI
+            integration, and Airtable data migration. Includes a shop API with automatic stock management and a real
+            Airtable-to-PostgreSQL migration script with duplicate detection.
+          </p>
+          <div class="flex flex-wrap gap-2 mb-6">
+            <span
+              class="skill-tag bg-gray-800 text-gray-300 text-xs px-3 py-1 rounded-full border border-gray-700">PostgreSQL</span>
+            <span
+              class="skill-tag bg-gray-800 text-gray-300 text-xs px-3 py-1 rounded-full border border-gray-700">SQLAlchemy</span>
+            <span
+              class="skill-tag bg-gray-800 text-gray-300 text-xs px-3 py-1 rounded-full border border-gray-700">FastAPI</span>
+            <span
+              class="skill-tag bg-gray-800 text-gray-300 text-xs px-3 py-1 rounded-full border border-gray-700">Airtable
+              API</span>
+            <span class="skill-tag bg-gray-800 text-gray-300 text-xs px-3 py-1 rounded-full border border-gray-700">Data
+              Migration</span>
+          </div>
+          <div class="flex gap-4">
+            <a href="https://github.com/mbuguacessy-glitch/Database-API-Projects" target="_blank"
+              class="bg-gray-800 hover:bg-gray-700 text-white px-5 py-2 rounded-lg text-sm font-medium transition-colors border border-gray-700">
+              GitHub →
+            </a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills -->
+  <section id="skills" class="py-24 px-6 bg-gray-900/50">
+    <div class="max-w-6xl mx-auto">
+      <div class="text-center mb-16">
+        <h2 class="text-4xl font-bold text-white mb-4">Skills</h2>
+        <p class="text-gray-400">The full stack — from AI models to deployed APIs</p>
+      </div>
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+
+        <div class="bg-gray-900 border border-gray-800 rounded-2xl p-6">
+          <div class="text-indigo-400 text-2xl mb-4">🤖</div>
+          <h3 class="font-semibold text-white mb-4">AI & ML</h3>
+          <ul class="space-y-2 text-gray-400 text-sm">
+            <li>Claude API (Anthropic)</li>
+            <li>RAG Systems</li>
+            <li>LangChain</li>
+            <li>ChromaDB</li>
+            <li>Prompt Engineering</li>
+            <li>AI Evaluation (RAGAS)</li>
+            <li>Multi-agent Systems</li>
+          </ul>
+        </div>
+
+        <div class="bg-gray-900 border border-gray-800 rounded-2xl p-6">
+          <div class="text-purple-400 text-2xl mb-4">⚡</div>
+          <h3 class="font-semibold text-white mb-4">APIs & Backend</h3>
+          <ul class="space-y-2 text-gray-400 text-sm">
+            <li>FastAPI</li>
+            <li>Python</li>
+            <li>JWT Authentication</li>
+            <li>API Key Management</li>
+            <li>Background Tasks</li>
+            <li>Webhooks</li>
+            <li>Rate Limiting</li>
+          </ul>
+        </div>
+
+        <div class="bg-gray-900 border border-gray-800 rounded-2xl p-6">
+          <div class="text-cyan-400 text-2xl mb-4">🗄️</div>
+          <h3 class="font-semibold text-white mb-4">Databases</h3>
+          <ul class="space-y-2 text-gray-400 text-sm">
+            <li>PostgreSQL</li>
+            <li>SQLAlchemy ORM</li>
+            <li>SQL</li>
+            <li>ChromaDB (Vector)</li>
+            <li>Data Migration</li>
+            <li>Schema Design</li>
+            <li>Audit Trails</li>
+          </ul>
+        </div>
+
+        <div class="bg-gray-900 border border-gray-800 rounded-2xl p-6">
+          <div class="text-green-400 text-2xl mb-4">🔧</div>
+          <h3 class="font-semibold text-white mb-4">Automation & Tools</h3>
+          <ul class="space-y-2 text-gray-400 text-sm">
+            <li>n8n</li>
+            <li>Airtable</li>
+            <li>Slack API</li>
+            <li>Typeform</li>
+            <li>Render (Deployment)</li>
+            <li>Git & GitHub</li>
+            <li>REST APIs</li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="py-24 px-6">
+    <div class="max-w-4xl mx-auto">
+      <div class="text-center mb-16">
+        <h2 class="text-4xl font-bold text-white mb-4">About</h2>
+      </div>
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+        <div>
+          <p class="text-gray-400 leading-relaxed mb-6">
+            I am an AI Automation Engineer based in Nairobi, Kenya, focused on one thing: turning manual, time-consuming
+            business processes into automated intelligent systems. My background in healthcare data management means I
+            understand data accuracy, compliance, and structured workflows at a level most engineers miss.
+          </p>
+          <p class="text-gray-400 leading-relaxed mb-6">
+            I have built systems that eliminate hours of manual client screening, cut document research from 20 minutes
+            to 3 seconds, and give businesses a permanent audit trail of every decision made. I understand the full
+            stack, from no-code automation to deployed production APIs, which means I can deliver end-to-end solutions
+            without a team.
+          </p>
+          <p class="text-gray-400 leading-relaxed">
+            I am currently building ClearVet, an enterprise client evaluation product, and actively seeking
+            international remote AI Engineering roles where I can solve problems that matter at scale.
+          </p>
+        </div>
+        <div class="space-y-4">
+          <div class="bg-gray-900 border border-gray-800 rounded-xl p-5">
+            <div class="text-sm text-gray-500 mb-1">Location</div>
+            <div class="text-white font-medium">Nairobi, Kenya</div>
+          </div>
+          <div class="bg-gray-900 border border-gray-800 rounded-xl p-5">
+            <div class="text-sm text-gray-500 mb-1">Available for</div>
+            <div class="text-white font-medium">Full-time roles, International Remote & Freelance</div>
+          </div>
+          <div class="bg-gray-900 border border-gray-800 rounded-xl p-5">
+            <div class="text-sm text-gray-500 mb-1">Markets</div>
+            <div class="text-white font-medium">Global, International Remote, Kenya local</div>
+          </div>
+          <div class="bg-gray-900 border border-gray-800 rounded-xl p-5">
+            <div class="text-sm text-gray-500 mb-1">Currently building</div>
+            <div class="text-white font-medium">ClearVet: Enterprise Client Evaluation</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="py-24 px-6 bg-gray-900/50">
+    <div class="max-w-2xl mx-auto text-center">
+      <h2 class="text-4xl font-bold text-white mb-4">Get in Touch</h2>
+      <p class="text-gray-400 mb-12 leading-relaxed">
+        Looking for an AI Engineer who ships production systems, not just tutorials? Working on a business problem that
+        needs intelligent automation? I am available for international remote roles and freelance projects globally.
+        Let's talk.
+      </p>
+      <div class="flex flex-wrap gap-4 justify-center">
+        <a href="mailto:mbugua.cessy@gmail.com"
+          class="bg-indigo-600 hover:bg-indigo-500 text-white px-8 py-3 rounded-lg font-medium transition-colors">
+          mbugua.cessy@gmail.com
+        </a>
+        <a href="https://www.linkedin.com/in/cess-mbugua" target="_blank"
+          class="bg-gray-800 hover:bg-gray-700 text-white px-8 py-3 rounded-lg font-medium transition-colors border border-gray-700">
+          LinkedIn →
+        </a>
+        <a href="https://github.com/mbuguacessy-glitch" target="_blank"
+          class="bg-gray-800 hover:bg-gray-700 text-white px-8 py-3 rounded-lg font-medium transition-colors border border-gray-700">
+          GitHub →
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="py-8 px-6 border-t border-gray-800">
+    <div class="max-w-6xl mx-auto flex flex-col md:flex-row justify-between items-center gap-4">
+      <span class="text-gray-500 text-sm">© 2026 Cecilia W. Mbugua</span>
+      <span class="text-gray-600 text-sm">Built with FastAPI · PostgreSQL · Claude AI · Deployed on Vercel</span>
+    </div>
+  </footer>
+
+</body>
+
+</html>
