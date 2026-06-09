@@ -101,7 +101,7 @@
       <!-- Stats -->
       <div class="grid grid-cols-3 gap-8 mt-20 max-w-lg mx-auto">
         <div class="text-center">
-          <div class="text-3xl font-bold text-white">6</div>
+          <div class="text-3xl font-bold text-white">7</div>
           <div class="text-gray-500 text-sm mt-1">Production Projects</div>
         </div>
         <div class="text-center">
@@ -127,7 +127,132 @@
 
       <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
 
-        <!-- Project 1: ClearVet -->
+        <!-- Project 1: StockSentry — FEATURED -->
+        <div class="card-hover bg-gray-900 border border-gray-800 rounded-2xl p-8 md:col-span-2">
+          <div class="flex items-start justify-between mb-6">
+            <div>
+              <div class="flex items-center gap-3 mb-2">
+                <span
+                  class="bg-green-500/10 text-green-400 border border-green-500/20 text-xs px-3 py-1 rounded-full">Featured</span>
+                <span
+                  class="bg-orange-500/10 text-orange-400 border border-orange-500/20 text-xs px-3 py-1 rounded-full">Manufacturing
+                  AI</span>
+                <span
+                  class="bg-purple-500/10 text-purple-400 border border-purple-500/20 text-xs px-3 py-1 rounded-full">Unique
+                  Problem</span>
+              </div>
+              <h3 class="text-2xl font-bold text-white">StockSentry — AI Warehouse Stock Reconciliation</h3>
+            </div>
+          </div>
+          <p class="text-gray-400 mb-6 leading-relaxed">
+            Large manufacturing facilities like Kenya Breweries lose millions monthly to untracked stock variances —
+            because everything is recorded on paper, small daily losses of 1-2 crates are ignored as "acceptable loss",
+            and by the time monthly reconciliation catches the discrepancy, the trail is cold. StockSentry replaces
+            paper shift records with a real-time digital system that catches every variance instantly, logs full chain
+            of custody for every order, and generates the monthly reconciliation report that previously took 2 full days
+            — in under 1 second.
+          </p>
+          <div class="grid grid-cols-1 md:grid-cols-4 gap-4 mb-6">
+            <div class="bg-gray-800/50 rounded-xl p-4">
+              <div class="text-2xl font-bold text-white">1 unit</div>
+              <div class="text-gray-500 text-sm mt-1">Minimum detectable variance</div>
+            </div>
+            <div class="bg-gray-800/50 rounded-xl p-4">
+              <div class="text-2xl font-bold text-white">&lt;1s</div>
+              <div class="text-gray-500 text-sm mt-1">Monthly report generation</div>
+            </div>
+            <div class="bg-gray-800/50 rounded-xl p-4">
+              <div class="text-2xl font-bold text-white">2 days</div>
+              <div class="text-gray-500 text-sm mt-1">Previously manual process</div>
+            </div>
+            <div class="bg-gray-800/50 rounded-xl p-4">
+              <div class="text-2xl font-bold text-white">100%</div>
+              <div class="text-gray-500 text-sm mt-1">Chain of custody logged</div>
+            </div>
+          </div>
+          <div class="flex flex-wrap gap-2 mb-6">
+            <span
+              class="skill-tag bg-gray-800 text-gray-300 text-xs px-3 py-1 rounded-full border border-gray-700">FastAPI</span>
+            <span
+              class="skill-tag bg-gray-800 text-gray-300 text-xs px-3 py-1 rounded-full border border-gray-700">Claude
+              AI</span>
+            <span
+              class="skill-tag bg-gray-800 text-gray-300 text-xs px-3 py-1 rounded-full border border-gray-700">PostgreSQL</span>
+            <span
+              class="skill-tag bg-gray-800 text-gray-300 text-xs px-3 py-1 rounded-full border border-gray-700">SQLAlchemy</span>
+            <span
+              class="skill-tag bg-gray-800 text-gray-300 text-xs px-3 py-1 rounded-full border border-gray-700">Slack
+              API</span>
+            <span
+              class="skill-tag bg-gray-800 text-gray-300 text-xs px-3 py-1 rounded-full border border-gray-700">Real-time
+              Alerts</span>
+            <span
+              class="skill-tag bg-gray-800 text-gray-300 text-xs px-3 py-1 rounded-full border border-gray-700">Audit
+              Trail</span>
+            <span
+              class="skill-tag bg-gray-800 text-gray-300 text-xs px-3 py-1 rounded-full border border-gray-700">Human-in-the-loop</span>
+          </div>
+          <div class="flex gap-4">
+            <a href="https://github.com/mbuguacessy-glitch/stocksentry-warehouse-reconciliation" target="_blank"
+              class="bg-gray-800 hover:bg-gray-700 text-white px-5 py-2 rounded-lg text-sm font-medium transition-colors border border-gray-700">
+              GitHub →
+            </a>
+          </div>
+        </div>
+        <!-- Project 2: MediFlow -->
+        <div class="card-hover bg-gray-900 border border-gray-800 rounded-2xl p-8">
+          <div class="flex items-center gap-3 mb-4">
+            <span
+              class="bg-green-500/10 text-green-400 border border-green-500/20 text-xs px-3 py-1 rounded-full">Healthcare
+              AI</span>
+            <span
+              class="bg-blue-500/10 text-blue-400 border border-blue-500/20 text-xs px-3 py-1 rounded-full">WhatsApp</span>
+          </div>
+          <h3 class="text-xl font-bold text-white mb-3">MediFlow — AI WhatsApp Clinic Receptionist</h3>
+          <p class="text-gray-400 mb-6 leading-relaxed text-sm">
+            Kenyan clinics lose KES 400,000+ monthly to no-shows and spend 2+ hours daily on manual confirmation calls.
+            MediFlow is an AI receptionist that handles appointment booking, reminders, emergency escalation, and clinic
+            enquiries entirely through WhatsApp. Human-in-the-loop for all emergencies and exceptions. Every decision
+            logged to PostgreSQL.
+          </p>
+          <div class="grid grid-cols-3 gap-3 mb-6">
+            <div class="bg-gray-800/50 rounded-xl p-3 text-center">
+              <div class="text-lg font-bold text-white">80%</div>
+              <div class="text-gray-500 text-xs">Interactions automated</div>
+            </div>
+            <div class="bg-gray-800/50 rounded-xl p-3 text-center">
+              <div class="text-lg font-bold text-white">KES 300K+</div>
+              <div class="text-gray-500 text-xs">Monthly revenue recovered</div>
+            </div>
+            <div class="bg-gray-800/50 rounded-xl p-3 text-center">
+              <div class="text-lg font-bold text-white">24/7</div>
+              <div class="text-gray-500 text-xs">Always available</div>
+            </div>
+          </div>
+          <div class="flex flex-wrap gap-2 mb-6">
+            <span
+              class="skill-tag bg-gray-800 text-gray-300 text-xs px-3 py-1 rounded-full border border-gray-700">FastAPI</span>
+            <span
+              class="skill-tag bg-gray-800 text-gray-300 text-xs px-3 py-1 rounded-full border border-gray-700">Claude
+              AI</span>
+            <span
+              class="skill-tag bg-gray-800 text-gray-300 text-xs px-3 py-1 rounded-full border border-gray-700">PostgreSQL</span>
+            <span
+              class="skill-tag bg-gray-800 text-gray-300 text-xs px-3 py-1 rounded-full border border-gray-700">Twilio
+              WhatsApp</span>
+            <span
+              class="skill-tag bg-gray-800 text-gray-300 text-xs px-3 py-1 rounded-full border border-gray-700">SQLAlchemy</span>
+            <span
+              class="skill-tag bg-gray-800 text-gray-300 text-xs px-3 py-1 rounded-full border border-gray-700">Human-in-the-loop</span>
+          </div>
+          <div class="flex gap-4">
+            <a href="https://github.com/mbuguacessy-glitch/mediflow-ai-receptionist" target="_blank"
+              class="bg-gray-800 hover:bg-gray-700 text-white px-5 py-2 rounded-lg text-sm font-medium transition-colors border border-gray-700">
+              GitHub →
+            </a>
+          </div>
+        </div>
+        <!-- Project 3: ClearVet -->
         <div class="card-hover bg-gray-900 border border-gray-800 rounded-2xl p-8 md:col-span-2">
           <div class="flex items-start justify-between mb-6">
             <div>
@@ -190,7 +315,7 @@
           </div>
         </div>
 
-        <!-- Project 2: RAG System -->
+        <!-- Project 4: RAG System -->
         <div class="card-hover bg-gray-900 border border-gray-800 rounded-2xl p-8">
           <div class="flex items-center gap-3 mb-4">
             <span class="bg-blue-500/10 text-blue-400 border border-blue-500/20 text-xs px-3 py-1 rounded-full">Live
@@ -227,7 +352,7 @@
           </div>
         </div>
 
-        <!-- Project 3: Auth API -->
+        <!-- Project 5: Auth API -->
         <div class="card-hover bg-gray-900 border border-gray-800 rounded-2xl p-8">
           <div class="flex items-center gap-3 mb-4">
             <span
@@ -259,7 +384,7 @@
           </div>
         </div>
 
-        <!-- Project 4: Background Tasks -->
+        <!-- Project 6: Background Tasks -->
         <div class="card-hover bg-gray-900 border border-gray-800 rounded-2xl p-8">
           <div class="flex items-center gap-3 mb-4">
             <span
@@ -293,7 +418,7 @@
           </div>
         </div>
 
-        <!-- Project 5: Database API -->
+        <!-- Project 7: Database API -->
         <div class="card-hover bg-gray-900 border border-gray-800 rounded-2xl p-8">
           <div class="flex items-center gap-3 mb-4">
             <span
@@ -328,57 +453,7 @@
 
       </div>
 
-      <!-- Project 6: MediFlow -->
-      <div class="card-hover bg-gray-900 border border-gray-800 rounded-2xl p-8">
-        <div class="flex items-center gap-3 mb-4">
-          <span
-            class="bg-green-500/10 text-green-400 border border-green-500/20 text-xs px-3 py-1 rounded-full">Healthcare
-            AI</span>
-          <span
-            class="bg-blue-500/10 text-blue-400 border border-blue-500/20 text-xs px-3 py-1 rounded-full">WhatsApp</span>
-        </div>
-        <h3 class="text-xl font-bold text-white mb-3">MediFlow — AI WhatsApp Clinic Receptionist</h3>
-        <p class="text-gray-400 mb-6 leading-relaxed text-sm">
-          Kenyan clinics lose KES 400,000+ monthly to no-shows and spend 2+ hours daily on manual confirmation calls.
-          MediFlow is an AI receptionist that handles appointment booking, reminders, emergency escalation, and clinic
-          enquiries entirely through WhatsApp. Human-in-the-loop for all emergencies and exceptions. Every decision
-          logged to PostgreSQL.
-        </p>
-        <div class="grid grid-cols-3 gap-3 mb-6">
-          <div class="bg-gray-800/50 rounded-xl p-3 text-center">
-            <div class="text-lg font-bold text-white">80%</div>
-            <div class="text-gray-500 text-xs">Interactions automated</div>
-          </div>
-          <div class="bg-gray-800/50 rounded-xl p-3 text-center">
-            <div class="text-lg font-bold text-white">KES 300K+</div>
-            <div class="text-gray-500 text-xs">Monthly revenue recovered</div>
-          </div>
-          <div class="bg-gray-800/50 rounded-xl p-3 text-center">
-            <div class="text-lg font-bold text-white">24/7</div>
-            <div class="text-gray-500 text-xs">Always available</div>
-          </div>
-        </div>
-        <div class="flex flex-wrap gap-2 mb-6">
-          <span
-            class="skill-tag bg-gray-800 text-gray-300 text-xs px-3 py-1 rounded-full border border-gray-700">FastAPI</span>
-          <span class="skill-tag bg-gray-800 text-gray-300 text-xs px-3 py-1 rounded-full border border-gray-700">Claude
-            AI</span>
-          <span
-            class="skill-tag bg-gray-800 text-gray-300 text-xs px-3 py-1 rounded-full border border-gray-700">PostgreSQL</span>
-          <span class="skill-tag bg-gray-800 text-gray-300 text-xs px-3 py-1 rounded-full border border-gray-700">Twilio
-            WhatsApp</span>
-          <span
-            class="skill-tag bg-gray-800 text-gray-300 text-xs px-3 py-1 rounded-full border border-gray-700">SQLAlchemy</span>
-          <span
-            class="skill-tag bg-gray-800 text-gray-300 text-xs px-3 py-1 rounded-full border border-gray-700">Human-in-the-loop</span>
-        </div>
-        <div class="flex gap-4">
-          <a href="https://github.com/mbuguacessy-glitch/mediflow-ai-receptionist" target="_blank"
-            class="bg-gray-800 hover:bg-gray-700 text-white px-5 py-2 rounded-lg text-sm font-medium transition-colors border border-gray-700">
-            GitHub →
-          </a>
-        </div>
-      </div>
+
   </section>
 
   <!-- Skills -->
