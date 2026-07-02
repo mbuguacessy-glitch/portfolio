@@ -248,7 +248,7 @@
               <div class="text-gray-500 text-xs">Always available</div>
             </div>
           </div>
-          <div class="flex flex-wrap gap-2 mb-6">
+          <div class="flex flex-wrap gap-2 mb-6 items-center">
             <span class="skill-tag text-xs px-3 py-1 rounded-full"
               style="background-color: #1F2937; color: #9CA3AF; border: 1px solid #374151;">FastAPI</span>
             <span class="skill-tag text-xs px-3 py-1 rounded-full"
@@ -309,7 +309,7 @@
               <div class="text-gray-500 text-sm">Audit trail coverage</div>
             </div>
           </div>
-          <div class="flex flex-wrap gap-2 mb-6">
+          <div class="flex flex-wrap gap-2 mb-6 items-center">
             <span class="skill-tag text-xs px-3 py-1 rounded-full"
               style="background-color: #1F2937; color: #9CA3AF; border: 1px solid #374151;">FastAPI</span>
             <span class="skill-tag text-xs px-3 py-1 rounded-full"
@@ -337,150 +337,150 @@
         </div>
 
         <!-- Project 4: RAG System -->
-        <div class="card-hover rounded-2xl p-8" style="background-color: #111827; border: 1px solid #1F2937;" <div
-          class="flex items-center gap-3 mb-4">
-          <span class="bg-blue-500/10 text-blue-400 border border-blue-500/20 text-xs px-3 py-1 rounded-full">Live
-            Deployed</span>
+        <div class="card-hover rounded-2xl p-8" style="background-color: #111827; border: 1px solid #1F2937;">
+          <div class="flex items-center gap-3 mb-4">
+            <span class="bg-blue-500/10 text-blue-400 border border-blue-500/20 text-xs px-3 py-1 rounded-full">Live
+              Deployed</span>
+          </div>
+          <h3 class="text-xl font-bold text-white mb-3">RAG Evaluation System</h3>
+          <p class="text-gray-400 mb-6 leading-relaxed text-sm">
+            Production RAG pipeline deployed on Render. Evaluates document retrieval accuracy across three metrics;
+            faithfulness, answer relevance, and context relevance using Claude as the judge. Reduced document research
+            time from 20 minutes to under 3 seconds with RAGAS-style evaluation scoring faithfulness at 0.92.
+          </p>
+          <div class="flex flex-wrap gap-2 mb-6 items-center">
+            <span class="skill-tag text-xs px-3 py-1 rounded-full"
+              style="background-color: #1F2937; color: #9CA3AF; border: 1px solid #374151;">FastAPI</span>
+            <span class="skill-tag text-xs px-3 py-1 rounded-full"
+              style="background-color: #1F2937; color: #9CA3AF; border: 1px solid #374151;">Claude
+              AI</span>
+            <span class="skill-tag text-xs px-3 py-1 rounded-full"
+              style="background-color: #1F2937; color: #9CA3AF; border: 1px solid #374151;">ChromaDB</span>
+            <span class="skill-tag text-xs px-3 py-1 rounded-full"
+              style="background-color: #1F2937; color: #9CA3AF; border: 1px solid #374151;">LangChain</span>
+            <span class="skill-tag text-xs px-3 py-1 rounded-full"
+              style="background-color: #1F2937; color: #9CA3AF; border: 1px solid #374151;">RAGAS
+              Evaluation</span>
+            <span class="skill-tag text-xs px-3 py-1 rounded-full"
+              style="background-color: #1F2937; color: #9CA3AF; border: 1px solid #374151;">Vector
+              Search</span>
+            <span class="skill-tag text-xs px-3 py-1 rounded-full"
+              style="background-color: #1F2937; color: #9CA3AF; border: 1px solid #374151;">Render</span>
+          </div>
         </div>
-        <h3 class="text-xl font-bold text-white mb-3">RAG Evaluation System</h3>
+        <div class="flex gap-4 items-start">
+          <a href="https://ai-agent-api-w7uh.onrender.com" target="_blank"
+            class="px-5 py-2 rounded-lg text-sm font-medium transition-colors inline-block"
+            style="background-color: #C9A84C; color: #0A0F1E;">
+            Live API →
+          </a>
+          <a href="https://github.com/mbuguacessy-glitch/Intelligent-Document-Q-A-System-RAG-" target="_blank"
+            class="bg-gray-800 hover:bg-gray-700 text-white px-5 py-2 rounded-lg text-sm font-medium transition-colors border border-gray-700 inline-block">
+            GitHub →
+          </a>
+        </div>
+      </div>
+
+      <!-- Project 5: Auth API -->
+      <div class="card-hover rounded-2xl p-8" style="background-color: #111827; border: 1px solid #1F2937;">
+        <div class="flex items-center gap-3 mb-4">
+          <span
+            class="bg-yellow-500/10 text-yellow-400 border border-yellow-500/20 text-xs px-3 py-1 rounded-full">Security</span>
+        </div>
+        <h3 class="text-xl font-bold text-white mb-3">Authenticated Multi-Tenant API</h3>
         <p class="text-gray-400 mb-6 leading-relaxed text-sm">
-          Production RAG pipeline deployed on Render. Evaluates document retrieval accuracy across three metrics;
-          faithfulness, answer relevance, and context relevance using Claude as the judge. Reduced document research
-          time from 20 minutes to under 3 seconds with RAGAS-style evaluation scoring faithfulness at 0.92.
+          Production-grade authentication layer with JWT tokens for admin users and API key management for client
+          machine access. Includes usage tracking per client, sliding window rate limiting, and instant key
+          revocation. Each client sees only their own data.
         </p>
-        <div class="flex flex-wrap gap-2 mb-6">
+        <div class="flex flex-wrap gap-2 mb-6 items-center">
+          <span class="skill-tag text-xs px-3 py-1 rounded-full"
+            style="background-color: #1F2937; color: #9CA3AF; border: 1px solid #374151;">FastAPI</span>
+          <span class="skill-tag text-xs px-3 py-1 rounded-full"
+            style="background-color: #1F2937; color: #9CA3AF; border: 1px solid #374151;">JWT</span>
+          <span class="skill-tag text-xs px-3 py-1 rounded-full"
+            style="background-color: #1F2937; color: #9CA3AF; border: 1px solid #374151;">PostgreSQL</span>
+          <span class="skill-tag text-xs px-3 py-1 rounded-full"
+            style="background-color: #1F2937; color: #9CA3AF; border: 1px solid #374151;">bcrypt</span>
+          <span class="skill-tag text-xs px-3 py-1 rounded-full"
+            style="background-color: #1F2937; color: #9CA3AF; border: 1px solid #374151;">Rate
+            Limiting</span>
+        </div>
+        <div class="flex gap-4">
+          <a href="https://github.com/mbuguacessy-glitch/authenticated-api" target="_blank"
+            class="bg-gray-800 hover:bg-gray-700 text-white px-5 py-2 rounded-lg text-sm font-medium transition-colors border border-gray-700">
+            GitHub →
+          </a>
+        </div>
+      </div>
+
+      <!-- Project 6: Background Tasks -->
+      <div class="card-hover rounded-2xl p-8" style="background-color: #111827; border: 1px solid #1F2937;">
+        <div class="flex items-center gap-3 mb-4">
+          <span
+            class="bg-cyan-500/10 text-cyan-400 border border-cyan-500/20 text-xs px-3 py-1 rounded-full">Pipeline</span>
+        </div>
+        <h3 class="text-xl font-bold text-white mb-3">Document Processing Pipeline</h3>
+        <p class="text-gray-400 mb-6 leading-relaxed text-sm">
+          Async document processing pipeline that handles long-running AI tasks without blocking. Clients submit
+          documents and receive a job ID in under 1 second. Claude processes in the background; summarising,
+          extracting fields, or evaluating against criteria. Full job audit trail in PostgreSQL.
+        </p>
+        <div class="flex flex-wrap gap-2 mb-6 items-center">
           <span class="skill-tag text-xs px-3 py-1 rounded-full"
             style="background-color: #1F2937; color: #9CA3AF; border: 1px solid #374151;">FastAPI</span>
           <span class="skill-tag text-xs px-3 py-1 rounded-full"
             style="background-color: #1F2937; color: #9CA3AF; border: 1px solid #374151;">Claude
             AI</span>
           <span class="skill-tag text-xs px-3 py-1 rounded-full"
-            style="background-color: #1F2937; color: #9CA3AF; border: 1px solid #374151;">ChromaDB</span>
+            style="background-color: #1F2937; color: #9CA3AF; border: 1px solid #374151;">PostgreSQL</span>
           <span class="skill-tag text-xs px-3 py-1 rounded-full"
-            style="background-color: #1F2937; color: #9CA3AF; border: 1px solid #374151;">LangChain</span>
+            style="background-color: #1F2937; color: #9CA3AF; border: 1px solid #374151;">Async
+            Python</span>
           <span class="skill-tag text-xs px-3 py-1 rounded-full"
-            style="background-color: #1F2937; color: #9CA3AF; border: 1px solid #374151;">RAGAS
-            Evaluation</span>
-          <span class="skill-tag text-xs px-3 py-1 rounded-full"
-            style="background-color: #1F2937; color: #9CA3AF; border: 1px solid #374151;">Vector
-            Search</span>
-          <span class="skill-tag text-xs px-3 py-1 rounded-full"
-            style="background-color: #1F2937; color: #9CA3AF; border: 1px solid #374151;">Render</span>
+            style="background-color: #1F2937; color: #9CA3AF; border: 1px solid #374151;">Webhooks</span>
+        </div>
+        <div class="flex gap-4">
+          <a href="https://github.com/mbuguacessy-glitch/Background-Task-Pipeline" target="_blank"
+            class="bg-gray-800 hover:bg-gray-700 text-white px-5 py-2 rounded-lg text-sm font-medium transition-colors border border-gray-700">
+            GitHub →
+          </a>
         </div>
       </div>
-      <div class="flex gap-4 items-start">
-        <a href="https://ai-agent-api-w7uh.onrender.com" target="_blank"
-          class="px-5 py-2 rounded-lg text-sm font-medium transition-colors inline-block"
-          style="background-color: #C9A84C; color: #0A0F1E;">
-          Live API →
-        </a>
-        <a href="https://github.com/mbuguacessy-glitch/Intelligent-Document-Q-A-System-RAG-" target="_blank"
-          class="bg-gray-800 hover:bg-gray-700 text-white px-5 py-2 rounded-lg text-sm font-medium transition-colors border border-gray-700 inline-block">
-          GitHub →
-        </a>
+
+      <!-- Project 7: Database API -->
+      <div class="card-hover rounded-2xl p-8" style="background-color: #111827; border: 1px solid #1F2937;">
+        <div class="flex items-center gap-3 mb-4">
+          <span
+            class="bg-orange-500/10 text-orange-400 border border-orange-500/20 text-xs px-3 py-1 rounded-full">Data</span>
+        </div>
+        <h3 class="text-xl font-bold text-white mb-3">Database & API Projects</h3>
+        <p class="text-gray-400 mb-6 leading-relaxed text-sm">
+          Full database layer built from scratch; PostgreSQL schema design, SQLAlchemy ORM models, FastAPI
+          integration, and Airtable data migration. Includes a shop API with automatic stock management and a real
+          Airtable-to-PostgreSQL migration script with duplicate detection.
+        </p>
+        <div class="flex flex-wrap gap-2 mb-6 items-center">
+          <span class="skill-tag text-xs px-3 py-1 rounded-full"
+            style="background-color: #1F2937; color: #9CA3AF; border: 1px solid #374151;">PostgreSQL</span>
+          <span class="skill-tag text-xs px-3 py-1 rounded-full"
+            style="background-color: #1F2937; color: #9CA3AF; border: 1px solid #374151;">SQLAlchemy</span>
+          <span class="skill-tag text-xs px-3 py-1 rounded-full"
+            style="background-color: #1F2937; color: #9CA3AF; border: 1px solid #374151;">FastAPI</span>
+          <span class="skill-tag text-xs px-3 py-1 rounded-full"
+            style="background-color: #1F2937; color: #9CA3AF; border: 1px solid #374151;">Airtable
+            API</span>
+          <span class="skill-tag text-xs px-3 py-1 rounded-full"
+            style="background-color: #1F2937; color: #9CA3AF; border: 1px solid #374151;">Data
+            Migration</span>
+        </div>
+        <div class="flex gap-4">
+          <a href="https://github.com/mbuguacessy-glitch/Database-API-Projects" target="_blank"
+            class="bg-gray-800 hover:bg-gray-700 text-white px-5 py-2 rounded-lg text-sm font-medium transition-colors border border-gray-700">
+            GitHub →
+          </a>
+        </div>
       </div>
-    </div>
-
-    <!-- Project 5: Auth API -->
-    <div class="card-hover rounded-2xl p-8" style="background-color: #111827; border: 1px solid #1F2937;" <div
-      class="flex items-center gap-3 mb-4">
-      <span
-        class="bg-yellow-500/10 text-yellow-400 border border-yellow-500/20 text-xs px-3 py-1 rounded-full">Security</span>
-    </div>
-    <h3 class="text-xl font-bold text-white mb-3">Authenticated Multi-Tenant API</h3>
-    <p class="text-gray-400 mb-6 leading-relaxed text-sm">
-      Production-grade authentication layer with JWT tokens for admin users and API key management for client
-      machine access. Includes usage tracking per client, sliding window rate limiting, and instant key
-      revocation. Each client sees only their own data.
-    </p>
-    <div class="flex flex-wrap gap-2 mb-6">
-      <span class="skill-tag text-xs px-3 py-1 rounded-full"
-        style="background-color: #1F2937; color: #9CA3AF; border: 1px solid #374151;">FastAPI</span>
-      <span class="skill-tag text-xs px-3 py-1 rounded-full"
-        style="background-color: #1F2937; color: #9CA3AF; border: 1px solid #374151;">JWT</span>
-      <span class="skill-tag text-xs px-3 py-1 rounded-full"
-        style="background-color: #1F2937; color: #9CA3AF; border: 1px solid #374151;">PostgreSQL</span>
-      <span class="skill-tag text-xs px-3 py-1 rounded-full"
-        style="background-color: #1F2937; color: #9CA3AF; border: 1px solid #374151;">bcrypt</span>
-      <span class="skill-tag text-xs px-3 py-1 rounded-full"
-        style="background-color: #1F2937; color: #9CA3AF; border: 1px solid #374151;">Rate
-        Limiting</span>
-    </div>
-    <div class="flex gap-4">
-      <a href="https://github.com/mbuguacessy-glitch/authenticated-api" target="_blank"
-        class="bg-gray-800 hover:bg-gray-700 text-white px-5 py-2 rounded-lg text-sm font-medium transition-colors border border-gray-700">
-        GitHub →
-      </a>
-    </div>
-    </div>
-
-    <!-- Project 6: Background Tasks -->
-    <div class="card-hover rounded-2xl p-8" style="background-color: #111827; border: 1px solid #1F2937;" <div
-      class="flex items-center gap-3 mb-4">
-      <span
-        class="bg-cyan-500/10 text-cyan-400 border border-cyan-500/20 text-xs px-3 py-1 rounded-full">Pipeline</span>
-    </div>
-    <h3 class="text-xl font-bold text-white mb-3">Document Processing Pipeline</h3>
-    <p class="text-gray-400 mb-6 leading-relaxed text-sm">
-      Async document processing pipeline that handles long-running AI tasks without blocking. Clients submit
-      documents and receive a job ID in under 1 second. Claude processes in the background; summarising,
-      extracting fields, or evaluating against criteria. Full job audit trail in PostgreSQL.
-    </p>
-    <div class="flex flex-wrap gap-2 mb-6">
-      <span class="skill-tag text-xs px-3 py-1 rounded-full"
-        style="background-color: #1F2937; color: #9CA3AF; border: 1px solid #374151;">FastAPI</span>
-      <span class="skill-tag text-xs px-3 py-1 rounded-full"
-        style="background-color: #1F2937; color: #9CA3AF; border: 1px solid #374151;">Claude
-        AI</span>
-      <span class="skill-tag text-xs px-3 py-1 rounded-full"
-        style="background-color: #1F2937; color: #9CA3AF; border: 1px solid #374151;">PostgreSQL</span>
-      <span class="skill-tag text-xs px-3 py-1 rounded-full"
-        style="background-color: #1F2937; color: #9CA3AF; border: 1px solid #374151;">Async
-        Python</span>
-      <span class="skill-tag text-xs px-3 py-1 rounded-full"
-        style="background-color: #1F2937; color: #9CA3AF; border: 1px solid #374151;">Webhooks</span>
-    </div>
-    <div class="flex gap-4">
-      <a href="https://github.com/mbuguacessy-glitch/Background-Task-Pipeline" target="_blank"
-        class="bg-gray-800 hover:bg-gray-700 text-white px-5 py-2 rounded-lg text-sm font-medium transition-colors border border-gray-700">
-        GitHub →
-      </a>
-    </div>
-    </div>
-
-    <!-- Project 7: Database API -->
-    <div class="card-hover rounded-2xl p-8" style="background-color: #111827; border: 1px solid #1F2937;" <div
-      class="flex items-center gap-3 mb-4">
-      <span
-        class="bg-orange-500/10 text-orange-400 border border-orange-500/20 text-xs px-3 py-1 rounded-full">Data</span>
-    </div>
-    <h3 class="text-xl font-bold text-white mb-3">Database & API Projects</h3>
-    <p class="text-gray-400 mb-6 leading-relaxed text-sm">
-      Full database layer built from scratch; PostgreSQL schema design, SQLAlchemy ORM models, FastAPI
-      integration, and Airtable data migration. Includes a shop API with automatic stock management and a real
-      Airtable-to-PostgreSQL migration script with duplicate detection.
-    </p>
-    <div class="flex flex-wrap gap-2 mb-6">
-      <span class="skill-tag text-xs px-3 py-1 rounded-full"
-        style="background-color: #1F2937; color: #9CA3AF; border: 1px solid #374151;">PostgreSQL</span>
-      <span class="skill-tag text-xs px-3 py-1 rounded-full"
-        style="background-color: #1F2937; color: #9CA3AF; border: 1px solid #374151;">SQLAlchemy</span>
-      <span class="skill-tag text-xs px-3 py-1 rounded-full"
-        style="background-color: #1F2937; color: #9CA3AF; border: 1px solid #374151;">FastAPI</span>
-      <span class="skill-tag text-xs px-3 py-1 rounded-full"
-        style="background-color: #1F2937; color: #9CA3AF; border: 1px solid #374151;">Airtable
-        API</span>
-      <span class="skill-tag text-xs px-3 py-1 rounded-full"
-        style="background-color: #1F2937; color: #9CA3AF; border: 1px solid #374151;">Data
-        Migration</span>
-    </div>
-    <div class="flex gap-4">
-      <a href="https://github.com/mbuguacessy-glitch/Database-API-Projects" target="_blank"
-        class="bg-gray-800 hover:bg-gray-700 text-white px-5 py-2 rounded-lg text-sm font-medium transition-colors border border-gray-700">
-        GitHub →
-      </a>
-    </div>
-    </div>
 
     </div>
 
